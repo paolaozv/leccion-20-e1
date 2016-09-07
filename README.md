@@ -2,6 +2,8 @@
 
 ###Código inicial
 
+``` javascript
+
 1. var num2 = 0;
 2. function suma(num1) {
 3. 	  return function(num2) {
@@ -14,10 +16,11 @@
 10. 
 11. var suma12 = suma(12);
 12. console.log(suma12(76)) // Debería mostrar 88 de resultado.
-
+```
 
 ###Código final
 
+``` javascript
 1. function suma(num1) {
 2.	  return function(num2) {
 3.	  return num1 + num2;
@@ -29,6 +32,7 @@
 9. 
 10. var suma12 = suma(12);
 11. console.log(suma12(76)) // Debería mostrar 88 de resultado.
+```
 
 ###Solución
 
