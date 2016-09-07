@@ -32,4 +32,4 @@
 
 ###Solución
 
-En la línea 1 del código inicial la variable num2 se define e inicializa en cero, pero en el código final se omite ese línea 1 porque al inicializarla de manera global, en la función anónima ya no la usa y no sería necesario colocarla. 
+En la línea 1 del código inicial la variable num2 se define e inicializa en cero, pero en el código final se omite ese línea 1 porque al inicializarla de manera global, en la función anónima ya no la usa y sería innecesario colocarla.
